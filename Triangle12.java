@@ -7,7 +7,7 @@ public class Triangle12 {
         System.out.print("Enter the value of n: ");
         int n = input.nextInt();
 
-        int i = 0;
+        int i = 1;
         while(i <= n) {
             //System.out.print("[i=" +  i + "] "); //temporary debug
             int j = 0;
