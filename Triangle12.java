@@ -18,6 +18,17 @@ public class Triangle12 {
             System.out.println();
             i++;
         }
+        int k = n;
+        while (k >= 1) {
+            int m = 0;
+            while (m < k) {
+                System.out.print("*");
+                m++;
+            }
+            System.out.println();
+            k--;
+        }
+
         input.close();
     }    
 }
